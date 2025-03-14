@@ -1,3 +1,40 @@
+
+## Set up nextjs project
+
+```bash
+npx create-next-app@latest
+```
+
+### NextJS project intial configs
+
+```bash
+✔ Would you like to use TypeScript? … No / Yes ->                              # YES
+✔ Would you like to use ESLint? … No / Yes                                     # YES 
+✔ Would you like to use Tailwind CSS? … No / Yes                               # YES
+✔ Would you like your code inside a `src/` directory? … No / Yes               # YES
+✔ Would you like to use App Router? (recommended) … No / Yes                   # NO
+✔ Would you like to use Turbopack for `next dev`? … No / Yes                   # NO
+✔ Would you like to customize the import alias (`@/*` by default)? … No / Yes  # NO
+```
+
+## Set up shadcn
+
+### Create project
+
+```bash
+npx shadcn@latest init
+```
+
+### Add Components
+
+```bash
+npx shadcn@latest add button
+```
+
+
+
+# CAN IGNORE AFTER THIS
+
 # [shadcn/ui sidebar](https://shadcn-ui-sidebar.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.salimi.my)
 
 A stunning and functional retractable sidebar for Next.js built on top of [shadcn/ui](https://ui.shadcn.com) complete with desktop and mobile responsiveness.
